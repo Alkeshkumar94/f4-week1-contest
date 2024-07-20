@@ -1,0 +1,53 @@
+#main{
+    position: relative;
+    height: 350px;
+    width: 350px;  
+    padding: 10px;
+    border-radius:15px;
+    box-shadow:
+    5px -5px 60px blue, 
+    -5px 5px 40px red; 
+}
+h2{
+    text-align: center;
+}
+#input{
+    text-align: center;
+}
+#input>input{
+    margin: 10px;
+    padding: 5px;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+#buttons>button{
+    margin:25px 5px;
+    color: white;
+    background-color: rgb(35, 34, 34);
+    font-size: 20px;
+    width: 25px;
+}
+#buttons>button:hover{
+    border:1px solid orangered;
+}
+.error{
+    text-align: center;
+    font-size: 20px;
+}
+.error>p{
+ color: red;
+ font-weight:bold;
+
+font-size: 20px;
+}
+.success{
+    text-align: center;
+    font-size: 20px;
+}
+.success>p{
+    color: blue;
+    font-weight:bold;
+    font-size: 20px;
+}
